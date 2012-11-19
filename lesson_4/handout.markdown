@@ -15,24 +15,16 @@ Class declaration in Ruby:
 Object instantiation in Ruby:
 
     my_porsche = Car.new
-- - -
 
 ## Variable scope
 
 + In order to detect the scope, use the `Object.defined?` method as follows:
-
     a = 5
     defined? a   # => "local-variable"
-
 + Local variables: `name`
-
 + Global variables: `$name`
-
 + Instance variables: `@name`
-
 + Class variables: `@@name`
-
-- - -
 
 ## The `initialize` method
 
@@ -48,9 +40,7 @@ Object instantiation in Ruby:
 
     v = Person.new("Vasea")
 
-_food for thought: What would happen if we write `v = Person.new(4)`? How can we get `@name` to be `nil`?_
-
-- - -
+_food for thought: What would happen if we write_ `v = Person.new(4)`? _How can we get_ `@name` _to be_ `nil`?
 
 ## Instance methods and Class methods
 
@@ -66,7 +56,7 @@ _food for thought: What would happen if we write `v = Person.new(4)`? How can we
 
     Person.gets_old_at(:male)   # => 65
 
-** Homework Excercise: **
+**Homework Excercise:**
 Create an instance method that would count the number of instances of a class. For example:
 
     Person.count                # => 0
