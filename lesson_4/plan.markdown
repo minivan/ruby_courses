@@ -16,11 +16,11 @@
 
     + Class vars **(5 minutes) (D:35)**
 
++ Constructors and the `initialize` method **(5 minutes) (D:40)**
+
 + Class methods vs. Object methods **(10 minutes) (D:45)**
 
-+ Private methods **(5 minutes) (D:50)**
-
-+ Constructors and the `initialize` method **(5 minutes) (D:55)**
++ Private methods **(5 minutes) (D:55)**
 
 + Default parameters **(5 minutes) (E:00)**
 
