@@ -16,7 +16,7 @@
 
     + Class vars **(5 minutes) (D:35)**
 
-+ Class methods vs. Object methods **(10 minutes) (D:45)ub
++ Class methods vs. Object methods **(10 minutes) (D:45)**
 
 + Private methods **(5 minutes) (D:50)**
 
