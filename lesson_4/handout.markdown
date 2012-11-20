@@ -65,7 +65,34 @@ Create an instance method that would count the number of instances of a class. F
     b = Person.new("Olga")
     Person.count                # => 2
 
+## Private methods
 
+    class Example
+      def a_public_method
+      end
+   
+      private
+   
+      def a_private_method
+      end
+    end
 
+## Default parameters
 
+    class Person
+      def initialize(name = "Vasea Pupkin", age = 100)
+        ...
+      end
+    end
 
+## Variabe number of arguments
+
+    def example (first, *test)
+      puts "The number of parameters is #{test.length}"
+      for i in 0...test.length
+        puts "The parameters are #{test[i]}"
+      end
+      puts "The first one was #{first}"
+    end
+
+## Today's exercise
